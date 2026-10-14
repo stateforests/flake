@@ -1,0 +1,3 @@
+[submodule "config/waywall/waywork"]
+	path = config/waywall/waywork
+	url = https://github.com/Esensats/waywork.git
