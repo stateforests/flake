@@ -1,0 +1,24 @@
+partial alphanumeric_keys
+xkb_symbols "mc" {
+    name[Group1] = "mc search crafting.";
+    include "us"
+
+    key <RALT> {[  ISO_Level3_Shift  ], type[group1]="ONE_LEVEL" };
+
+    key <AE03> { [ U0034, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AD04> { [ U0072, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AE04> { [ U0038, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AE01> { [ U002B, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AC02> { [ U0061, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AB04> { [ U0075, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AE02> { [ U0032, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AD02> { [ U0077, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AB02> { [ U002D, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AB01> { [ U0078, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AC01> { [ U0073, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AC04> { [ U0062, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AD01> { [ U006F, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AD03> { [ U0065, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AB03> { [ U006E, VoidSymbol, VoidSymbol, VoidSymbol ] };
+    key <AC03> { [ U0064, VoidSymbol, VoidSymbol, VoidSymbol ] };
+};

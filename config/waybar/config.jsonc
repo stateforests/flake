@@ -1,0 +1,40 @@
+{
+	"position": "bottom",
+	"layer": "top",
+	"height": 30,
+	"spacing": 0,
+
+	"modules-left": ["river/tags"],
+	"modules-center": ["wlr/taskbar"],
+	"modules-right": ["tray", "wireplumber", "clock"],
+
+	"river/tags": {
+		"num-tags": 9,
+		"tag-labels": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+		"hide-vacant": false
+	},
+
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 18,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"sort-by-app-id": true,
+		"squash-list": ["*"]
+	},
+
+	"tray": { "icon-size": 17, "spacing": 7 },
+
+	"wireplumber": {
+		"format": "{volume}%",
+		"format-muted": "mute",
+		"on-click": "pavucontrol",
+		"tooltip": false
+	},
+
+	"clock": {
+		"format": "{:%H:%M  %d/%m/%Y}",
+		"tooltip": false
+	}
+}

@@ -1,0 +1,9 @@
+result
+result-*
+.direnv
+.envrc
+*.qcow2
+secrets/plain/
+*.agekey
+id_ed25519
+id_ed25519.pub
